@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/LOM http://ltsc.ieee.org/xsd/lomv1.0/lom.xsd">
+<general><identifier>
+<catalog>-</catalog>
+<entry>-</entry>
+</identifier>
+<title><string language="es">Ética en las Organizaciones</string>
+</title>
+<language>es</language>
+<description><string language="es">Aprende química analítica como los grandes.
+Demos una vuelta por gigantesco mundo de la ciencia clave en el análisis de datos y conclusiones sobre los mismos, la estadística descriptiva.
+Aprende sobre las relaciones cuantitativas entre reactivos y productos de una reacción, distintos métodos para balancear ecuaciones, y más.</string>
+</description>
+<keyword><string language="es">Ética, Valores, Ética Organizacional, Código, Derechos</string>
+</keyword>
+<coverage><string language="es">Psicosociología del Trabajo, UCV</string>
+</coverage>
+<structure><source>LOMv1.0</source>
+<value>networked</value></structure>
+<aggregationLevel><source>LOMv1.0</source>
+<value>3</value></aggregationLevel>
+</general>
+<lifeCycle><version><string language="es">1.0</string>
+</version>
+<status><source>LOMv1.0</source>
+<value>draft</value></status>
+<contribute>
+<role><source>LOMv1.0</source>
+<value>author</value></role>
+<entity>
+<![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Rodríguez;Daniel;;;
+FN:Daniel Rodríguez
+ORG:UCV
+EMAIL;TYPE=INTERNET:daniel.rodriguez1806@gmail.com
+END:VCARD]]></entity>
+<date><dateTime>2018-07</dateTime>
+<description><string>Desarrollador</string>
+</description>
+</date>
+</contribute>
+<contribute>
+<role><source>LOMv1.0</source>
+<value>validator</value></role>
+<entity>
+<![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Hernández;Yosly;;;
+FN:Yosly Hernández
+ORG:UCV
+EMAIL;TYPE=INTERNET:yoslyhernandez@gmail.com
+END:VCARD]]></entity>
+<entity>
+<![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Mogollón;Ivory;;;
+FN:Ivory Mogollón
+ORG:UCV
+EMAIL;TYPE=INTERNET:ivorymogollon@gmail.com
+END:VCARD]]></entity>
+<date><dateTime>2018</dateTime>
+<description><string>Profesores</string>
+</description>
+</date>
+</contribute>
+</lifeCycle>
+<metaMetadata><identifier>
+<catalog>-</catalog>
+<entry>http://www.ciens.ucv.ve/uead/oacaquimica/</entry>
+</identifier>
+<contribute>
+<role><source>LOMv1.0</source>
+<value>creator</value></role>
+<entity>
+<![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Rodríguez;Daniel;;;
+FN:Daniel Rodríguez
+ORG:UCV
+END:VCARD]]></entity>
+<date><dateTime>2018</dateTime>
+<description><string>Desarrolladores</string>
+</description>
+</date>
+</contribute>
+<contribute>
+<role><source>LOMv1.0</source>
+<value>validator</value></role>
+<entity>
+<![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Hernández;Yosly;;;
+FN:Yosly Hernández
+ORG:UCV
+EMAIL;TYPE=INTERNET:yoslyhernandez@gmail.com
+END:VCARD]]></entity>
+<entity>
+<![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Mogollón;Ivory;;;
+FN:Ivory Mogollón
+ORG:UCV
+EMAIL;TYPE=INTERNET:ivorymogollon@gmail.com
+END:VCARD]]></entity>
+<date><dateTime>2018</dateTime>
+<description><string>Profesores</string>
+</description>
+</date>
+</contribute>
+<metadataSchema>-</metadataSchema>
+<language>es</language>
+</metaMetadata>
+<technical><format>text/html</format>
+<location>-</location>
+<requirement>
+<orComposite>
+<type><source>LOMv1.0</source>
+<value>operating system</value>
+</type>
+<name><source>LOMv1.0</source>
+<value>none</value>
+</name>
+</orComposite>
+</requirement>
+<requirement>
+<orComposite>
+<type><source>LOMv1.0</source>
+<value>browser</value>
+</type>
+<name><source>LOMv1.0</source>
+<value>any</value>
+</name>
+</orComposite>
+</requirement>
+<installationRemarks><string language="es">No necesita instalación</string>
+</installationRemarks>
+<otherPlatformRequirements><string language="es">-</string>
+</otherPlatformRequirements>
+<duration><description><string>Cantidad de semanas que tome el tema en la materia</string>
+</description>
+</duration>
+</technical>
+<educational><interactivityType><source>LOMv1.0</source>
+<value>mixed</value></interactivityType>
+<learningResourceType><source>LOMv1.0</source>
+<value>exercise</value></learningResourceType>
+<learningResourceType><source>LOMv1.0</source>
+<value>questionnaire</value></learningResourceType>
+<learningResourceType><source>LOMv1.0</source>
+<value>narrative text</value></learningResourceType>
+<learningResourceType><source>LOMv1.0</source>
+<value>exam</value></learningResourceType>
+<learningResourceType><source>LOMv1.0</source>
+<value>slide</value></learningResourceType>
+<learningResourceType><source>LOMv1.0</source>
+<value>self assessment</value></learningResourceType>
+<interactivityLevel><source>LOMv1.0</source>
+<value>medium</value></interactivityLevel>
+<semanticDensity><source>LOMv1.0</source>
+<value>medium</value></semanticDensity>
+<intendedEndUserRole><source>LOMv1.0</source>
+<value>learner</value></intendedEndUserRole>
+<context><source>LOMv1.0</source>
+<value>other</value></context>
+<typicalAgeRange><string language="es">+22 años, edad mínima con la que los estudiantes suelen empezar los postgrados</string>
+</typicalAgeRange>
+<difficulty><source>LOMv1.0</source>
+<value>medium</value></difficulty>
+<typicalLearningTime><duration>P1M</duration>
+</typicalLearningTime>
+<description><string language="es">Definiciones, ejemplos, ejercicios y evaluaciones.</string>
+</description>
+<language>es</language>
+</educational>
+<rights><cost><source>LOMv1.0</source>
+<value>no</value></cost>
+<copyrightAndOtherRestrictions><source>LOMv1.0</source>
+<value>yes</value></copyrightAndOtherRestrictions>
+<description><string language="es">Abierto</string>
+</description>
+</rights>
+<relation><kind><source>LOMv1.0</source>
+<value>isbasisfor</value></kind>
+<resource><identifier>
+<catalog>-</catalog>
+<entry>-</entry>
+</identifier>
+<description><string language="es">Postgraddo Seguridad Social, Facultad de Ciencias Económicas y Sociales</string>
+</description>
+</resource>
+</relation>
+<annotation><entity>
+<![CDATA[BEGIN:VCARD
+VERSION:3.0
+N:Hernández;Yosly;;;
+FN:Yosly Hernández
+ORG:UCV
+END:VCARD]]></entity>
+<date><dateTime>2016</dateTime>
+</date>
+<description><string>Realizado por Daniel Rodríguez, estudiante de la asignatura &quot;Objetos de Aprendizaje: Aspectos pedagógicos y tecnológicos&quot; de la licenciatura de Ciencias de la Computación de la Universidad Central de Venezuela durante el Semestre 2-2017 dictada por la profesora Yosly Hernandez</string>
+</description>
+</annotation>
+<classification><purpose><source>LOMv1.0</source>
+<value>educational level</value></purpose>
+<taxonPath><source><string language="es">-</string>
+</source>
+<taxon>
+<id>1</id>
+<entry><string language="es">Química</string>
+</entry>
+</taxon>
+</taxonPath>
+<description><string language="es">Objeto de aprendizaje para química analítica.</string>
+</description>
+<keyword><string language="es">Ética, Valores, Ética Organizacional, Código, Derechos</string>
+</keyword>
+</classification>
+</lom>

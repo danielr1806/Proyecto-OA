@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Objeto de Aprendizaje: Ética en las Organizaciones</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel=StyleSheet type="text/css" href="CSS/Estilo.css" media=screen>
+	
+	<style type="text/css">
+		.container{
+		    height:100%;
+		    display: flex;
+		    align-items: center;
+		}
+	</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".side-menu">
+	<div style="width:100%; height:100%;" id="opcion1">
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  	<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<div class="navbar-brand"><font color="#040"><b>Objeto de Aprendizaje: Ética en las Organizaciones</b></font></div>
+		    	</div>
+
+		    	<div id="Menu">
+			    	<ul class="nav navbar-nav navbar-right">
+						<li class="active" id="1"><a href="Index.html">Inicio</a></li>
+						<li class="menu" id="2"><a href="Introduccion.html">Introducción</a></li>
+						<li class="menu" id="3"><a href="Contenido.html">Contenido</a></li>
+				    	<li class="menu" id="4"><a href="Saber_Mas.html">Saber Más</a></li>
+				    </ul>
+				</div>
+		  	</div>
+		</nav>
+		<img id="img" src="Images/etica.jpeg" alt="img" img border="0" width="100%" height="100%">
+	</div>
+
+	<nav class="side-menu">
+		<ul>
+			<li class="hidden active">
+				<a class="page-scroll" href="#page-top"></a>
+			</li>
+
+			<li>
+				<a href="#opcion1" class="page-scroll">
+					<span class="menu-title">Inicio</span>
+					<span class="dot"></span>
+				</a>
+			</li>
+
+			<li>
+				<a href="#opcion2" class="page-scroll">
+					<span class="menu-title">Acerca de este OACA</span>
+					<span class="dot"></span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#opcion3" class="page-scroll">
+					<span class="menu-title">Objetivo General</span>
+					<span class="dot"></span>
+				</a>
+			</li>
+
+			<li>
+				<a href="#opcion4" class="page-scroll">
+					<span class="menu-title">Contenido</span>
+					<span class="dot"></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+		
+	<div id="opcion2" class="container">
+		<div class="col-md-12">
+			<div class="tabcontent">
+				<h3 align="center" class="titulo">Acerca de este Objeto de Aprendizaje</h3>
+				
+				<div class="col-sm-6 col-sm-offset-3 text-center">
+				
+					<p style="text-align: center;">
+						Este Objeto de Aprendizaje de Contenido Abierto (OACA) trata sobre la Ética en las Organizaciones. Comenzaremos con una breve introducción con un par de definiciones de distintos autores. Se visualizarán un conjunto de conceptos, los cuales serán reforzados con videos para su análisis y un conjunto de actividades para observar el aprendizaje y comprensión de los conceptos, definiciones y hechos descritos.
+					</p>
+				</div>
+			</div>
+			<p>
+
+			</p>
+		</div>
+	</div>
+
+	<div id="opcion3" class="container">
+		<div class="col-md-12">
+			<div class="tabcontent">
+				<h3 align="center" class="titulo">Objetivo del Tema</h3>
+				<div class="col-sm-6 col-sm-offset-3 text-center">
+					
+					<p style="text-align: center;">
+						Conceptualizar la ética empresarial tomando en consideración las percepciones y valores que definen a la empresa en la sociedad actual
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>		
+	
+	<div id="opcion4" class="container">
+		<div class="col-md-12">
+			<div id="Contacto" class="tabcontent">
+				<h3 align="center" class="titulo">Acerca de Nosotros</h3>
+
+				<div class="col-md-3">
+					<div>
+						<a href="#">
+							<p align="center"><img class="media-object" src="Images/logo-escuela.png" alt="..."></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="media-body">
+						<h3 style="text-align: center;">Objetos de Aprendizaje de Contenido Abierto</h3>
+						<p style="text-align: center;">Realizado por los estudiantes de la asignatura "Objetos de Aprendizaje: Aspectos pedagógicos y tecnológicos" de la licenciatura de Ciencias de la Computación de la Universidad Central de Venezuela durante el Semestre 2-2017 dictada por la profesora Yosly Hernandez </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid footer">
+		<div class="row footer-credit">
+			<div class="col-md-9 col-sm-9">
+				<p> 2018, UCV | Facultad de Ciencias.</p>
+			</div>
+			
+			<div class="col-md-3 col-sm-3">
+				<img src="Images/cc.png" class = "img-responsive">
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$('a[href^="#"]').on('click', function(event) {
+
+		    var target = $(this.getAttribute('href'));
+		    console.log(target);
+		    if( target.length ) {
+		        event.preventDefault();
+		        $('html, body').stop().animate({
+		            scrollTop: target.offset().top
+		        }, 'slow');
+		    }
+
+		});
+	});
+</script>
+
+</html>
